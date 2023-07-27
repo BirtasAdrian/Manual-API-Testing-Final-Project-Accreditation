@@ -1,4 +1,4 @@
-# Acest repository conţine proiectul meu final de testare manuală pentru acreditare
+## Acest repository conţine proiectul meu final de testare manuală pentru acreditare
 
 Proiectul final constă în testarea unui API. 
 
