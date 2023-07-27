@@ -10,4 +10,4 @@ https://petstore.swagger.io
 
 Ca şi tool de testare API am ales să folosesc Postman.
 
-În secţiunea Authorization se va folosi ca şi API Kei: special-key
+În secţiunea Authorization se va folosi pentru fiecare test ca şi API Key: special-key
