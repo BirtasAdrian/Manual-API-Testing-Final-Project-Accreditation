@@ -8,4 +8,6 @@ API Swagger Petstore este un API în care se pot insera, modifica sau sterge ani
 
 https://petstore.swagger.io
 
+Ca şi tool de testare API am ales să folosesc Postman.
 
+În secţiunea Authorization se va folosi ca şi API Kei: special-key
