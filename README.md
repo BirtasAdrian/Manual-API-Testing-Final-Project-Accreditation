@@ -147,14 +147,45 @@ Status cod de răspuns: 200 OK
 
 Metoda HTTP pentru request: DELETE
 
-Animal şters prin introducerea id-ului său 2 în endpoint
+Animal şters prin introducerea id-ului său -2 în endpoint
 
 Status cod de răspuns: 404 Not Found
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/3752c286-c300-48a1-8f22-6dc1150c8976)
 
 
+Rularea colecţiei Pet, cea în care am realizat testele de mai sus
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/ebd8ce82-10f6-4d09-b95f-e2967970969c)
+
+Raportul de execuţie 
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/031d6306-cccb-494f-91b0-7004a58d4d7e)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/4c74b96a-ab8f-4736-b85d-199aded2e51f)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/9e65c3af-f1bb-437b-bbe8-334b0c14934d)
 
 
+**Bug-uri găsite**
+
+Bug Id: 1
+
+**Titlu:** Inserarea mai multor animale cu acelaşi id este posibilă
+
+**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+
+**Paşi de execuţie:**
+1. Se foloseşte metoda HTTP POST
+2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
+3. Se introduce în Header codul JavaScript specific din documentaţie din secţiunea pet pentru POST:
+https://petstore.swagger.io
+4. Se apasă butonul Send de 2 ori
+
+**Rezultat Aşteptat:**
+Nu se va putea insera mai mult de un animal cu acelaşi id, codul 405 invalid input va apărea
+
+**Rezultat Actual:**
+Se poate insera mai mult de un animal cu acelaşi id, codul 200 ok apare
 
 
