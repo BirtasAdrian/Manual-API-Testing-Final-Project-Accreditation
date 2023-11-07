@@ -1,0 +1,598 @@
+{
+	"id": "5dd06be5-1a5c-48ba-bc50-0debf32f1aa6",
+	"name": "Pet",
+	"timestamp": "2023-11-07T21:49:42.790Z",
+	"collection_id": "16723409-2ca90359-b93c-4898-b810-404229196dd7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 42,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-11-07T21:49:39.643Z",
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "3c059dc6-12d2-4e34-af80-ecba0d594a76",
+			"name": "Adauga un nou animal în magazin",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 594,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Status cod-ul de raspuns sa fie 200": true,
+				"id-ul general este 1": true,
+				"Animalul este un caine": true,
+				"Animalul are numele Rex": true,
+				"Id-ul animalului pentru porecla este 1": true,
+				"Animalul mai este numit si Fluffy": true,
+				"Animalul are statusul available": true,
+				"Respectarea proprietatilor  pentru animal": true,
+				"Respectarea tipurilor de date  pentru animal": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status cod-ul de raspuns sa fie 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"id-ul general este 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Animalul este un caine": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Animalul are numele Rex": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id-ul animalului pentru porecla este 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Animalul mai este numit si Fluffy": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Animalul are statusul available": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Respectarea proprietatilor  pentru animal": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Respectarea tipurilor de date  pentru animal": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				594
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Status cod-ul de raspuns sa fie 200": true,
+					"id-ul general este 1": true,
+					"Animalul este un caine": true,
+					"Animalul are numele Rex": true,
+					"Id-ul animalului pentru porecla este 1": true,
+					"Animalul mai este numit si Fluffy": true,
+					"Animalul are statusul available": true,
+					"Respectarea proprietatilor  pentru animal": true,
+					"Respectarea tipurilor de date  pentru animal": true
+				}
+			]
+		},
+		{
+			"id": "54494540-69f3-46f0-b2c1-c3bfb81cfb9d",
+			"name": "Adaugă un nou animal în magazin cu un id general -1",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Verifica ca raspunsul testului sa aibe codul 405": false,
+				"Raspunsul returneaza o eroare": false
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verifica ca raspunsul testului sa aibe codul 405": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Raspunsul returneaza o eroare": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Verifica ca raspunsul testului sa aibe codul 405": false,
+					"Raspunsul returneaza o eroare": false
+				}
+			]
+		},
+		{
+			"id": "ebad17f7-868b-47d2-9e87-70139fe2254e",
+			"name": "Adaugă un nou animal în magazin cu un id la categorie  de tip string \"caine\"",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 124,
+			"responseCode": {
+				"code": 500,
+				"name": "Server Error"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Verifica ca raspunsul testului sa aibe codul 500": true,
+				"Raspunsul returneaza o eroare": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verifica ca raspunsul testului sa aibe codul 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Raspunsul returneaza o eroare": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Verifica ca raspunsul testului sa aibe codul 500": true,
+					"Raspunsul returneaza o eroare": true
+				}
+			]
+		},
+		{
+			"id": "d4a75427-0fd5-4524-ab8d-530a82cff4b9",
+			"name": "Adaugă un nou animal în magazin cu un număr la status",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Verifica ca raspunsul testului sa aibe codul 500": false,
+				"Verificam ca tipul de data pentru status sa fie numar": false
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verifica ca raspunsul testului sa aibe codul 500": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Verificam ca tipul de data pentru status sa fie numar": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Verifica ca raspunsul testului sa aibe codul 500": false,
+					"Verificam ca tipul de data pentru status sa fie numar": false
+				}
+			]
+		},
+		{
+			"id": "1ee6c4ed-918e-4ad0-b361-07e35256d5e9",
+			"name": "Adaugă un nou animal în magazin cu un text la id pentru tags",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 126,
+			"responseCode": {
+				"code": 500,
+				"name": "Server Error"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Verifica ca raspunsul testului sa aibe codul 500": true,
+				"Raspunsul returneaza o eroare": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verifica ca raspunsul testului sa aibe codul 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Raspunsul returneaza o eroare": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Verifica ca raspunsul testului sa aibe codul 500": true,
+					"Raspunsul returneaza o eroare": true
+				}
+			]
+		},
+		{
+			"id": "debd82ba-7191-45d6-ba46-d40af45b767a",
+			"name": "Actualizează datele unui animal existent",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Status cod-ul de raspuns sa fie 200": true,
+				"id-ul general este 2": true,
+				"Id-ul de categorie este 2": true,
+				"Animalul are numele Pucky": true,
+				"Id-ul de tags este 2": true,
+				"Link-ul URL contine textul \"animaledecompanie.info\"": true,
+				"Statusul animalului este unavailable": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status cod-ul de raspuns sa fie 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"id-ul general este 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id-ul de categorie este 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Animalul are numele Pucky": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id-ul de tags este 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Link-ul URL contine textul \"animaledecompanie.info\"": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Statusul animalului este unavailable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Status cod-ul de raspuns sa fie 200": true,
+					"id-ul general este 2": true,
+					"Id-ul de categorie este 2": true,
+					"Animalul are numele Pucky": true,
+					"Id-ul de tags este 2": true,
+					"Link-ul URL contine textul \"animaledecompanie.info\"": true,
+					"Statusul animalului este unavailable": true
+				}
+			]
+		},
+		{
+			"id": "4496198e-36f8-4166-bd1e-8964022f77e3",
+			"name": "Actualizează datele unui animal existent cu un nume de 25 de caractere pentru specie",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Status cod-ul de raspuns sa fie 200": true,
+				"Specia animalului sa aiba 25 de caractere la nume": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status cod-ul de raspuns sa fie 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Specia animalului sa aiba 25 de caractere la nume": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Status cod-ul de raspuns sa fie 200": true,
+					"Specia animalului sa aiba 25 de caractere la nume": true
+				}
+			]
+		},
+		{
+			"id": "cf0bf3d0-2c22-4323-a339-a132a4ad3d0e",
+			"name": "Actualizează datele unui animal existent cu un id pentru categorie de 19 de cifre",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Status cod-ul de raspuns sa fie 200": true,
+				"Id-ul pentru categorie sa contina 19 cifre": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status cod-ul de raspuns sa fie 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id-ul pentru categorie sa contina 19 cifre": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Status cod-ul de raspuns sa fie 200": true,
+					"Id-ul pentru categorie sa contina 19 cifre": true
+				}
+			]
+		},
+		{
+			"id": "de682036-8c1a-48e6-961d-8772449650fe",
+			"name": "Găseşte un animal după id",
+			"url": "https://petstore.swagger.io/v2/pet/2",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Status cod-ul de raspuns sa fie 200": true,
+				"id-ul general este 2": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status cod-ul de raspuns sa fie 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"id-ul general este 2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Status cod-ul de raspuns sa fie 200": true,
+					"id-ul general este 2": true
+				}
+			]
+		},
+		{
+			"id": "9f1da4bd-c697-4f94-b3a4-9d0055b4f54d",
+			"name": "Găseşte un animal după un id negativ",
+			"url": "https://petstore.swagger.io/v2/pet/-2",
+			"time": 126,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Status cod-ul de raspuns sa fie 404": true,
+				"Text-ul raspunsului sa contina textul \"Pet not found": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status cod-ul de raspuns sa fie 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Text-ul raspunsului sa contina textul \"Pet not found": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Status cod-ul de raspuns sa fie 404": true,
+					"Text-ul raspunsului sa contina textul \"Pet not found": true
+				}
+			]
+		},
+		{
+			"id": "97684478-4dd6-46da-9206-f07d60244ea7",
+			"name": "Şterge un animal după id",
+			"url": "https://petstore.swagger.io/v2/pet/2",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Raspunsul sa fie in format Json": true,
+				"Status cod-ul de raspuns sa fie 200": true,
+				"Text-ul raspunsului sa contina mesajul 2": true
+			},
+			"testPassFailCounts": {
+				"Raspunsul sa fie in format Json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status cod-ul de raspuns sa fie 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Text-ul raspunsului sa contina mesajul 2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Raspunsul sa fie in format Json": true,
+					"Status cod-ul de raspuns sa fie 200": true,
+					"Text-ul raspunsului sa contina mesajul 2": true
+				}
+			]
+		},
+		{
+			"id": "a208027a-5183-4a41-a553-ce82bf4c2f0a",
+			"name": "Şterge un animal după un id negativ",
+			"url": "https://petstore.swagger.io/v2/pet/-2",
+			"time": 125,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status cod-ul de raspuns sa fie 404": true
+			},
+			"testPassFailCounts": {
+				"Status cod-ul de raspuns sa fie 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status cod-ul de raspuns sa fie 404": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1979,
+	"collection": {
+		"requests": [
+			{
+				"id": "3c059dc6-12d2-4e34-af80-ecba0d594a76",
+				"method": "POST"
+			},
+			{
+				"id": "54494540-69f3-46f0-b2c1-c3bfb81cfb9d",
+				"method": "POST"
+			},
+			{
+				"id": "ebad17f7-868b-47d2-9e87-70139fe2254e",
+				"method": "POST"
+			},
+			{
+				"id": "d4a75427-0fd5-4524-ab8d-530a82cff4b9",
+				"method": "POST"
+			},
+			{
+				"id": "1ee6c4ed-918e-4ad0-b361-07e35256d5e9",
+				"method": "POST"
+			},
+			{
+				"id": "debd82ba-7191-45d6-ba46-d40af45b767a",
+				"method": "PUT"
+			},
+			{
+				"id": "4496198e-36f8-4166-bd1e-8964022f77e3",
+				"method": "PUT"
+			},
+			{
+				"id": "cf0bf3d0-2c22-4323-a339-a132a4ad3d0e",
+				"method": "PUT"
+			},
+			{
+				"id": "de682036-8c1a-48e6-961d-8772449650fe",
+				"method": "GET"
+			},
+			{
+				"id": "9f1da4bd-c697-4f94-b3a4-9d0055b4f54d",
+				"method": "GET"
+			},
+			{
+				"id": "97684478-4dd6-46da-9206-f07d60244ea7",
+				"method": "DELETE"
+			},
+			{
+				"id": "a208027a-5183-4a41-a553-ce82bf4c2f0a",
+				"method": "DELETE"
+			}
+		]
+	}
+}
