@@ -224,15 +224,21 @@ Notă: Ca şi improvement ar fi bine să se adauge de către developeri un mesaj
 
 Rularea colecţiei Pet, cea în care am realizat testele de mai sus
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/ebd8ce82-10f6-4d09-b95f-e2967970969c)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/773cf709-bf3a-4724-a381-8b006745c72b)
 
 Raportul de execuţie 
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/031d6306-cccb-494f-91b0-7004a58d4d7e)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/5e192f86-7f72-4b00-8ee2-81e8fc72ba9c)
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/4c74b96a-ab8f-4736-b85d-199aded2e51f)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/6a012d68-bf4c-4056-bdf2-43058e967551)
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/9e65c3af-f1bb-437b-bbe8-334b0c14934d)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/72a63f04-b9a7-4977-a6c5-978e0c3ce6af)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/961423a3-c41f-4b79-881a-e1b840cac097)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/c2d189e6-1017-40d9-aa03-dd3e1dbd5cbf)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/e22ffe18-3502-43f7-9b8a-ee70529f9a69)
 
 
 **Bug-uri găsite**
