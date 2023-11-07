@@ -16,7 +16,7 @@ Ca şi tool de testare API am ales să folosesc Postman.
 
 Metoda HTTP pentru request: POST
 
-Animal introdus în petstore în secţiunea Body-raw din Postman cu ajutorul dictionarului din documentatie 
+Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie 
 
 Status cod de răspuns: 200 OK
 
@@ -39,22 +39,30 @@ Status cod de răspuns: 200 OK
 
 Metoda HTTP pentru request: POST
 
-Animal introdus în petstore în secţiunea Body-raw din Postman cu ajutorul dictionarului din documentatie 
+Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie 
 
 Status cod de răspuns: 200 OK
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b9ef2657-b8f3-4197-8697-cf5b3b060079)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/27150510-30d4-4967-8478-1452d1be9c35)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/2974101d-e693-4d88-9912-412752d74b6d)
 
 -----------------------------------------
 **Adaugărea unui animal în magazin cu un id la categorie de tip string "caine"**
 
 Metoda HTTP pentru request: POST
 
-Animal introdus în petstore prin cod JavaScript în secţiunea Body
+Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie 
 
 Status cod de răspuns: 500 Sever Error
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/d754f0e7-4482-4fe7-9ccd-9e92fb924ef6)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/09ef507d-3078-448a-b7bc-0066fbd430b9)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/fb10e928-2b2a-4f10-aa2f-2b6b7e778354)
 
 -----------------------------------------
 
@@ -62,11 +70,15 @@ Status cod de răspuns: 500 Sever Error
 
 Metoda HTTP pentru request: POST
 
-Animal introdus în petstore prin cod JavaScript în secţiunea Body
+Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
 
 Status cod de răspuns: 200 OK
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/90fe25ce-00bb-44fd-afeb-2d54c66bfce5)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/ddb9be47-9baa-40cd-be83-ec53fd7abf5f)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/4f70e514-7ab7-455a-ae4c-5b4d94367def)
 
 -----------------------------------------
 
@@ -74,11 +86,15 @@ Status cod de răspuns: 200 OK
 
 Metoda HTTP pentru request: POST
 
-Animal introdus în petstore prin cod JavaScript în secţiunea Body
+Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
 
 Status cod de răspuns: 500 Server Error
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/07a193b9-697b-4e64-83db-bbe16b420334)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/90eeb6b5-84cd-4296-b313-4e6f674e3cb5)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/82e474b7-d4ae-43f4-a6cd-b982deaf22f7)
 
 -----------------------------------------
 
@@ -86,11 +102,20 @@ Status cod de răspuns: 500 Server Error
 
 Metoda HTTP pentru request: PUT
 
-Animal actualizat în petstore prin cod JavaScript în secţiunea Body
+Animal actualizat în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
 
 Status cod de răspuns: 200 OK
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/6f3356e1-9195-4e8e-8ff2-b5e4ae24dede)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b18df86d-9101-41cf-a77a-d2d599ff5929)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/445ab2d2-7a8f-4a71-86f0-5f056451c18e)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b45886a2-0ac7-45e8-9226-a04504ca5bb5)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/bdc274d9-602a-47b4-93fe-dc19b8d78951)
+
 
 -----------------------------------------
 
@@ -98,11 +123,16 @@ Status cod de răspuns: 200 OK
 
 Metoda HTTP pentru request: PUT
 
-Animal actualizat în petstore prin cod JavaScript în secţiunea Body
+Animal actualizat în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
 
 Status cod de răspuns: 200 OK
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/dc06df94-2b9f-46f5-825c-7c4c7ad2fb6f)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/ce6dd5db-b761-402a-a67f-2cde05eb1b8e)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/f293a766-ebef-45ee-8554-b7d2205ba06f)
+
 
 -----------------------------------------
 
@@ -110,11 +140,15 @@ Status cod de răspuns: 200 OK
 
 Metoda HTTP pentru request: PUT
 
-Animal actualizat în petstore prin cod JavaScript în secţiunea Body
+Animal actualizat în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
 
 Status cod de răspuns: 500 Server Error
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/7f832a86-70e8-4278-900d-9f5ee85b1e04)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/88605c95-cc7a-4a60-81c6-7ce6cd605cdd)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/6ec2ad2b-6f1b-4713-97b8-3e06a12b1482)
 
 -----------------------------------------
 
@@ -126,7 +160,11 @@ Animal găsit prin introducerea id-ului său 2 în endpoint
 
 Status cod de răspuns: 200 OK
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/c332c912-2234-477e-ba3a-5c9e69548610)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/9fefd78d-dde9-43ea-aade-5c911411e7ec)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/645f20a4-028b-451c-a4f7-2a37e8b12114)
 
 -----------------------------------------
 
@@ -138,7 +176,11 @@ Animal negăsit prin introducerea id-ului său -2 în endpoint
 
 Status cod de răspuns: 404 Not Found
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/a36858dc-93d3-4b6a-94c6-b7727d69bca0)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/a53f902b-97be-4e85-a9c0-65528ee2c8de)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/f92355b1-3dfd-4851-ad63-dd7e53cdc1f0)
 
 -----------------------------------------
 
@@ -150,7 +192,14 @@ Animal şters prin introducerea id-ului său 2 în endpoint
 
 Status cod de răspuns: 200 OK
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b142f473-8021-461b-960e-b801d8828b65)
+Notă: Ca şi improvement ar fi bine să se adauge de către developeri un mesaj de confirmare corespunzător "Pet Deleted"
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/915ef1b6-8bb5-4110-9c1f-73a119b44f6f)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/e2ec92b3-8e96-42c1-9884-97c0f12462b1)
+
 
 -----------------------------------------
 
@@ -162,8 +211,16 @@ Animal şters prin introducerea id-ului său -2 în endpoint
 
 Status cod de răspuns: 404 Not Found
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/3752c286-c300-48a1-8f22-6dc1150c8976)
+Notă: Ca şi improvement ar fi bine să se adauge de către developeri un mesaj corespunzător de eroare "Pet not found"
 
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/666392aa-67cb-445f-b39a-92722ecbd442)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/64b16e25-973f-4afb-8d4c-d7b1434f858e)
+
+
+-----------------------------------------
 
 Rularea colecţiei Pet, cea în care am realizat testele de mai sus
 
@@ -189,7 +246,7 @@ Bug Id: 1
 **Paşi de execuţie:**
 1. Se foloseşte metoda HTTP POST
 2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
-3. Se introduce în Header codul JavaScript specific din documentaţie din secţiunea pet pentru POST:
+3. Se introduce în Header dicţionarul specific din documentaţie din secţiunea pet pentru POST:
 https://petstore.swagger.io
 4. Se apasă butonul Send de 2 ori
 
