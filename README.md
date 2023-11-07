@@ -136,13 +136,13 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**Actualizarea datelor unui animal existent cu un id pentru categorie de 20 de cifre**
+**Actualizarea datelor unui animal existent cu un id pentru categorie de 19 cifre**
 
 Metoda HTTP pentru request: PUT
 
 Animal actualizat în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
 
-Status cod de răspuns: 500 Server Error
+Status cod de răspuns: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/88605c95-cc7a-4a60-81c6-7ce6cd605cdd)
 
