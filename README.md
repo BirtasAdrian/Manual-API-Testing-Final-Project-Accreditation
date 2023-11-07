@@ -30,7 +30,8 @@ Status cod de răspuns: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/91c88cf2-2a57-43fe-8160-51a7fb190a19)
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/755c6abd-ddb7-4311-acbd-160ca7287d86)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/d0fb3091-7c20-4838-8cc3-64c83c7659a9)
+
 
 -----------------------------------------
 
