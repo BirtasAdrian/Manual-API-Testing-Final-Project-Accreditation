@@ -4,15 +4,13 @@ Proiectul final constă în testarea unui API.
 
 API Swagger Petstore este un API în care se pot insera, modifica sau sterge animale în baza de date a unui magazin pentru animale. Acest API are posibilitatea de a face acelaş lucru şi pentru comenzi sau useri. În cadrul proiectului final am ales să testez modulul API-ului în care se pot insera, modifica sau şterge animalele în baza de date a magazinului.
 
- #### Documentaţia API-ului: https://petstore.swagger.io
-
+ #### Documentaţia API-ului: [Documentaţie](https://petstore.swagger.io)
+ 
 Ca şi tool de testare API am ales să folosesc Postman.
 
 În secţiunea Authorization se va folosi pentru fiecare test ca şi API Key: special-key
 
-Link colecţie: https://www.postman.com/winter-robot-829234/workspace/petstore/collection/16723409-2ca90359-b93c-4898-b810-404229196dd7?action=share&creator=16723409
-
-* [Colectia de teste](https://www.postman.com/winter-robot-829234/workspace/petstore/collection/16723409-2ca90359-b93c-4898-b810-404229196dd7?action=share&creator=16723409)
+Link colecţie: [Colectia de teste](https://www.postman.com/winter-robot-829234/workspace/petstore/collection/16723409-2ca90359-b93c-4898-b810-404229196dd7?action=share&creator=16723409)
   
 ## Testele realizate
 
