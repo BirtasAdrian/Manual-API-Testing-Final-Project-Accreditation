@@ -254,9 +254,9 @@ Bug Id: 1
 **Paşi de execuţie:**
 1. Se foloseşte metoda HTTP POST
 2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
-3. Se introduce în Header dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
 https://petstore.swagger.io
-4. Se apasă butonul Send de 2 ori
+4. Se apasă butonul "Send" de 2 ori
 
 **Rezultat Aşteptat:**
 Nu se va putea insera mai mult de un animal cu acelaşi id, codul 405 invalid input va apărea
@@ -264,4 +264,49 @@ Nu se va putea insera mai mult de un animal cu acelaşi id, codul 405 invalid in
 **Rezultat Actual:**
 Se poate insera mai mult de un animal cu acelaşi id, codul 200 ok apare
 
+-----------------------------------------
+Bug Id: 2
+
+**Titlu:** Inserarea unui animal cu un număr la status este posibilă
+
+**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+
+**Date de test:**: 5
+
+**Paşi de execuţie:**
+1. Se foloseşte metoda HTTP POST
+2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
+3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+https://petstore.swagger.io
+4. Se completează la "Status" cu 5
+5. Se apasă butonul "Send"
+
+**Rezultat Aşteptat:**
+Nu se va putea insera un animal care sa aibă statusul de tip număr
+
+**Rezultat Actual:**
+Se poate insera un animal care sa aibă statusul de tip număr
+
+-----------------------------------------
+
+Bug Id: 3
+
+**Titlu:** Inserarea unui animal cu un id negativ genereaza un animal cu id-ul 9223372036854775807
+
+**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+
+**Date de test:**: -1
+
+**Paşi de execuţie:**
+1. Se foloseşte metoda HTTP POST
+2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
+3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+https://petstore.swagger.io
+4. Se completează la "id" cu -1
+
+**Rezultat Aşteptat:**
+Nu ar trebui să se genereze deloc un id pentru un număr negativ ci să apară o eroare şi un status cod corespunzător
+
+**Rezultat Actual:**
+Id-ul 9223372036854775807 este generat, iar status cod-ul este de 200 OK
 
