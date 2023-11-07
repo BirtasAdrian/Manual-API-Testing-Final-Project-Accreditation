@@ -12,6 +12,8 @@ Ca şi tool de testare API am ales să folosesc Postman.
 
 Link colecţie: https://www.postman.com/winter-robot-829234/workspace/petstore/collection/16723409-2ca90359-b93c-4898-b810-404229196dd7?action=share&creator=16723409
 
+* [Colectia de teste](https://www.postman.com/winter-robot-829234/workspace/petstore/collection/16723409-2ca90359-b93c-4898-b810-404229196dd7?action=share&creator=16723409)
+  
 ## Testele realizate
 
 **Adăugarea unui nou animal în magazin**
