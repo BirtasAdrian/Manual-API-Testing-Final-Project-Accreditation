@@ -245,7 +245,7 @@ Raportul de execuţie
 
 **Bug-uri găsite**
 
-Bug Id: 1
+**Bug Id:** 1
 
 **Titlu:** Inserarea mai multor animale cu acelaşi id este posibilă
 
@@ -267,7 +267,7 @@ Nu se va putea insera mai mult de un animal cu acelaşi id, codul 405 invalid in
 Se poate insera mai mult de un animal cu acelaşi id, codul 200 ok apare
 
 -----------------------------------------
-Bug Id: 2
+**Bug Id:** 2
 
 **Titlu:** Inserarea unui animal cu un număr la status este posibilă
 
@@ -293,7 +293,7 @@ Se poate insera un animal care sa aibă statusul de tip număr
 
 -----------------------------------------
 
-Bug Id: 3
+**Bug Id:** 3
 
 **Titlu:** Inserarea unui animal cu un id negativ genereaza un animal cu id-ul 9223372036854775807
 
