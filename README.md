@@ -236,7 +236,7 @@ Raportul de execuţie
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/961423a3-c41f-4b79-881a-e1b840cac097)
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/c2d189e6-1017-40d9-aa03-dd3e1dbd5cbf)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/4d7e9db6-e39c-485a-adc8-95f1cf066968)
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/e22ffe18-3502-43f7-9b8a-ee70529f9a69)
 
