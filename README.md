@@ -259,9 +259,11 @@ https://petstore.swagger.io
 4. Se apasă butonul "Send" de 2 ori
 
 **Rezultat Aşteptat:**
+
 Nu se va putea insera mai mult de un animal cu acelaşi id, codul 405 invalid input va apărea
 
 **Rezultat Actual:**
+
 Se poate insera mai mult de un animal cu acelaşi id, codul 200 ok apare
 
 -----------------------------------------
@@ -282,9 +284,11 @@ https://petstore.swagger.io
 5. Se apasă butonul "Send"
 
 **Rezultat Aşteptat:**
+
 Nu se va putea insera un animal care sa aibă statusul de tip număr
 
 **Rezultat Actual:**
+
 Se poate insera un animal care sa aibă statusul de tip număr
 
 -----------------------------------------
@@ -305,8 +309,10 @@ https://petstore.swagger.io
 4. Se completează la "id" cu -1
 
 **Rezultat Aşteptat:**
+
 Nu ar trebui să se genereze deloc un id pentru un număr negativ ci să apară o eroare şi un status cod corespunzător
 
 **Rezultat Actual:**
+
 Id-ul 9223372036854775807 este generat, iar status cod-ul este de 200 OK
 
