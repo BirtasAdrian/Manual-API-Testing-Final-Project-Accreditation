@@ -16,11 +16,12 @@ Ca şi tool de testare API am ales să folosesc Postman.
 
 Metoda HTTP pentru request: POST
 
-Animal introdus în petstore prin cod JavaScript în secţiunea Body
+Animal introdus în petstore în secţiunea Body-raw din Postman cu ajutorul dictionarului din documentatie 
 
 Status cod de răspuns: 200 OK
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b76606bc-adcd-4b48-a9e0-9a66cd24091d)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/33032aea-1fe3-45a1-9aa4-27790c1f7b5a)
+
 
 -----------------------------------------
 
@@ -28,11 +29,22 @@ Status cod de răspuns: 200 OK
 
 Metoda HTTP pentru request: POST
 
-Animal introdus în petstore prin cod JavaScript în secţiunea Body
+Animal introdus în petstore în secţiunea Body-raw din Postman cu ajutorul dictionarului din documentatie 
 
 Status cod de răspuns: 200 OK
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/ef9efbd4-cbbb-417c-b5d3-439ab0d2b7bc)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b9ef2657-b8f3-4197-8697-cf5b3b060079)
+
+***Teste JavaScript:***
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/396a9636-c894-4b71-8c06-6c7ff74212f1)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/1ffc3cac-9d26-4cd1-94e8-3859f9804e15)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/91c88cf2-2a57-43fe-8160-51a7fb190a19)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/755c6abd-ddb7-4311-acbd-160ca7287d86)
+
 
 -----------------------------------------
 **Adaugărea unui animal în magazin cu un id la categorie de tip string "caine"**
