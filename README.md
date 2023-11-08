@@ -249,6 +249,8 @@ Raportul de execuţie
 
 **Titlu:** Inserarea mai multor animale cu acelaşi id este posibilă
 
+**Severitate:** Mare
+
 **Precondiţii:** Se foloseşte API Key: special-key în Authorization
 
 **Paşi de execuţie:**
@@ -270,6 +272,8 @@ Se poate insera mai mult de un animal cu acelaşi id, codul 200 ok apare
 **Bug Id:** 2
 
 **Titlu:** Inserarea unui animal cu un număr la status este posibilă
+
+**Severitate:** Mică
 
 **Precondiţii:** Se foloseşte API Key: special-key în Authorization
 
@@ -297,6 +301,8 @@ Se poate insera un animal care sa aibă statusul de tip număr
 
 **Titlu:** Inserarea unui animal cu un id negativ genereaza un animal cu id-ul 9223372036854775807
 
+**Severitate:** Mică
+
 **Precondiţii:** Se foloseşte API Key: special-key în Authorization
 
 **Date de test:**: -1
@@ -315,4 +321,13 @@ Nu ar trebui să se genereze deloc un id pentru un număr negativ ci să apară 
 **Rezultat Actual:**
 
 Id-ul 9223372036854775807 este generat, iar status cod-ul este de 200 OK
+
+
+**Concluzii**
+
+* Au fost trimise 12 request-uri şi executate 46 de teste JavaScript, din care doar 42 au fost executate cu succes
+* 91.3% din teste au trecut si 8.7% au căzut
+* 3 bug-uri au fost găsite şi raportate, unul de severitate mare si 2 de severitate mică
+* Se prezintă un risc crescut deoarece baza de date permite inserări multiple pe acelaş id pentru animale
+  
 
