@@ -254,7 +254,7 @@ Raportul de execuţie
 **Paşi de execuţie:**
 1. Se foloseşte metoda HTTP POST
 2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
-3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+3. Se introduce şi completează în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
 https://petstore.swagger.io
 4. Se apasă butonul "Send" de 2 ori
 
