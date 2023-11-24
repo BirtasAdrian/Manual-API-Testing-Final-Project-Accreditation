@@ -81,7 +81,7 @@ Status cod de răspuns: 200 OK
 
 ***Teste JavaScript:***
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/4f70e514-7ab7-455a-ae4c-5b4d94367def)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/f738d279-332d-42c0-a34c-3d777a77eeb9)
 
 -----------------------------------------
 
