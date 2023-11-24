@@ -356,11 +356,39 @@ Primim un status code din seria 500 ce ţine de eroare de server
 
 -----------------------------------------
 
+**Bug Id:** 5
+
+**Titlu:** Pentru adăugarea unui text la id pentru categorie se primeşte un status code 500 Server Error "type" unknown
+
+**Severitate:** Medie
+
+**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+
+**Date de test:**: Caine
+
+**Paşi de execuţie:**
+1. Se foloseşte metoda HTTP POST
+2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
+3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+https://petstore.swagger.io
+4. Se completează la "id" categorie cu Caine
+5. Se apasă butonul "Send"
+
+**Rezultat Aşteptat:**
+
+Ar trebui să primim un status cod din seria 400 şi un mesaj de eroare
+
+**Rezultat Actual:**
+
+Primim un status code din seria 500 ce ţine de eroare de server
+
+-----------------------------------------
+
 **Concluzii**
 
 * Au fost trimise 12 request-uri şi executate 46 de teste JavaScript, din care doar 42 au fost executate cu succes
-* 91.3% din teste au trecut si 8.7% au căzut
-* 3 bug-uri au fost găsite şi raportate, unul de severitate mare si 2 de severitate mică
+* 91.3% din teste au trecut si 8,7% au căzut
+* 5 bug-uri au fost găsite şi raportate, unul de severitate mare si 4 de severitate medie
 * Se prezintă un risc crescut deoarece baza de date permite inserări multiple pe acelaş id pentru animale
   
 
