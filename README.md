@@ -273,7 +273,7 @@ Se poate insera mai mult de un animal cu acelaşi id, codul 200 ok apare
 
 **Titlu:** Inserarea unui animal cu un număr la status este posibilă
 
-**Severitate:** Mică
+**Severitate:** Medie
 
 **Precondiţii:** Se foloseşte API Key: special-key în Authorization
 
@@ -301,7 +301,7 @@ Se poate insera un animal care sa aibă statusul de tip număr
 
 **Titlu:** Inserarea unui animal cu un id negativ genereaza un animal cu id-ul 9223372036854775807
 
-**Severitate:** Mică
+**Severitate:** Medie
 
 **Precondiţii:** Se foloseşte API Key: special-key în Authorization
 
@@ -313,6 +313,7 @@ Se poate insera un animal care sa aibă statusul de tip număr
 3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
 https://petstore.swagger.io
 4. Se completează la "id" cu -1
+5. Se apasă butonul "Send"
 
 **Rezultat Aşteptat:**
 
@@ -321,6 +322,34 @@ Nu ar trebui să se genereze deloc un id pentru un număr negativ ci să apară 
 **Rezultat Actual:**
 
 Id-ul 9223372036854775807 este generat, iar status cod-ul este de 200 OK
+
+-----------------------------------------
+
+**Bug Id:** 4
+
+**Titlu:** Pentru adăugarea unui text la id pentru tags se primeşte un status code 500 Server Error "type" unknown
+
+**Severitate:** Medie
+
+**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+
+**Date de test:**: Bubu
+
+**Paşi de execuţie:**
+1. Se foloseşte metoda HTTP POST
+2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
+3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+https://petstore.swagger.io
+4. Se completează la "id" tags cu Bubu
+5. Se apasă butonul "Send"
+
+**Rezultat Aşteptat:**
+
+Ar trebui să primim un status cod din seria 400 şi un mesaj de eroare
+
+**Rezultat Actual:**
+
+Primim un status code din seria 500 ce ţine de eroare de server
 
 -----------------------------------------
 
