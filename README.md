@@ -60,11 +60,12 @@ Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul di
 
 Status cod de răspuns: 500 Sever Error
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/09ef507d-3078-448a-b7bc-0066fbd430b9)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/56fc176a-8cab-430b-b942-8a6a7c678b26)
 
 ***Teste JavaScript:***
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/fb10e928-2b2a-4f10-aa2f-2b6b7e778354)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/2f686d08-572f-4d6a-82d7-b9615b1c4eae)
+
 
 -----------------------------------------
 
@@ -92,11 +93,13 @@ Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul di
 
 Status cod de răspuns: 500 Server Error
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/90eeb6b5-84cd-4296-b313-4e6f674e3cb5)
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b7287e7d-01fb-4086-ba5f-98f8b06b333d)
+
 
 ***Teste JavaScript:***
 
-![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/82e474b7-d4ae-43f4-a6cd-b982deaf22f7)
+
+![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/76dc1aab-609b-4911-a0c7-ebce43b51d36)
 
 -----------------------------------------
 
