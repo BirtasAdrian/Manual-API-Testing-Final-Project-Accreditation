@@ -14,7 +14,7 @@ Link colecţie: [Colectia de teste](https://www.postman.com/winter-robot-829234/
   
 ## Testele realizate
 
-**Adăugarea unui nou animal în magazin**
+**1. Adăugarea unui nou animal în magazin**
 
 Metoda HTTP pentru request: POST
 
@@ -37,7 +37,7 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**Adăugarea unui nou animal în magazin cu un id general -1**
+**2. Adăugarea unui nou animal în magazin cu un id general -1**
 
 Metoda HTTP pentru request: POST
 
@@ -52,7 +52,7 @@ Status cod de răspuns: 200 OK
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/2974101d-e693-4d88-9912-412752d74b6d)
 
 -----------------------------------------
-**Adaugărea unui animal în magazin cu un id la categorie de tip string "caine"**
+**3. Adaugărea unui animal în magazin cu un id la categorie de tip string "caine"**
 
 Metoda HTTP pentru request: POST
 
@@ -69,7 +69,7 @@ Status cod de răspuns: 500 Sever Error
 
 -----------------------------------------
 
-**Adăugarea unui nou animal în magazin cu un număr la status**
+**4. Adăugarea unui nou animal în magazin cu un număr la status**
 
 Metoda HTTP pentru request: POST
 
@@ -85,7 +85,7 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**Adăugarea unui nou animal în magazin cu un text la id pentru tags**
+**5. Adăugarea unui nou animal în magazin cu un text la id pentru tags**
 
 Metoda HTTP pentru request: POST
 
@@ -103,7 +103,7 @@ Status cod de răspuns: 500 Server Error
 
 -----------------------------------------
 
-**Actualizarea datelor unui animal existent în baza de date**
+**6. Actualizarea datelor unui animal existent în baza de date**
 
 Metoda HTTP pentru request: PUT
 
@@ -124,7 +124,7 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**Actualizarea datelor unui animal existent în baza de date cu un nume de 25 de caractere pentru specie**
+**7. Actualizarea datelor unui animal existent în baza de date cu un nume de 25 de caractere pentru specie**
 
 Metoda HTTP pentru request: PUT
 
@@ -141,7 +141,7 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**Actualizarea datelor unui animal existent cu un id pentru categorie de 19 cifre**
+**8. Actualizarea datelor unui animal existent cu un id pentru categorie de 19 cifre**
 
 Metoda HTTP pentru request: PUT
 
@@ -157,7 +157,7 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**Găsirea unui animal după id**
+**9. Găsirea unui animal după id**
 
 Metoda HTTP pentru request: GET
 
@@ -173,7 +173,7 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**Găsirea unui animal după un id negativ**
+**10. Găsirea unui animal după un id negativ**
 
 Metoda HTTP pentru request: GET
 
@@ -189,7 +189,7 @@ Status cod de răspuns: 404 Not Found
 
 -----------------------------------------
 
-**Ştergerea unui animal după id**
+**11. Ştergerea unui animal după id**
 
 Metoda HTTP pentru request: DELETE
 
@@ -208,7 +208,7 @@ Notă: Ca şi improvement ar fi bine să se adauge de către developeri un mesaj
 
 -----------------------------------------
 
-**Ştergerea unui animal după id negativ**
+**12. Ştergerea unui animal după id negativ**
 
 Metoda HTTP pentru request: DELETE
 
