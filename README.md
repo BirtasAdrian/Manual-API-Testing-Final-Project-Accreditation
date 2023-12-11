@@ -1,30 +1,30 @@
-## Acest repository conţine proiectul meu final de testare manuală pentru acreditare
+## This repository contains my final project on manual testing for the Programmer's Assistant accreditation 
 
-Proiectul final constă în testarea unui API. 
+The final project is testing an API.
 
-API Swagger Petstore este un API în care se pot insera, vizualiza, modifica sau sterge animale în baza de date a unui magazin pentru animale. Acest API are posibilitatea de a face acelaşi lucru şi pentru comenzi sau useri. În cadrul proiectului final am ales să testez modulul API-ului în care se pot insera, vizualiza, modifica sau şterge animalele în baza de date a magazinului.
+The Swagger Petstore API is an API where you can insert, view, modify, or delete animals in a pet store's database. This API can do the same for orders or users. In the final project, I chose to test the API module where you can insert, view, modify, or delete animals in the pet shop database. This will also include writing Java Script tests.
 
- #### Documentaţia API-ului: [Documentaţie](https://petstore.swagger.io)
+ #### API Documentation: [Documentaţie](https://petstore.swagger.io)
  
-Ca şi tool de testare API am ales să folosesc Postman.
+For the API testing tool, I chose to use Postman.
 
-În secţiunea Authorization se va folosi pentru fiecare test ca şi API Key: special-key
+In the Authorization section, it will be used for each test as API Key: special-key
 
-Link colecţie: [Colectia de teste](https://www.postman.com/winter-robot-829234/workspace/petstore/collection/16723409-2ca90359-b93c-4898-b810-404229196dd7?action=share&creator=16723409)
+Collection link: [Test Collection](https://www.postman.com/winter-robot-829234/workspace/petstore/collection/16723409-2ca90359-b93c-4898-b810-404229196dd7?action=share&creator=16723409)
   
-## Testele realizate
+## Tests performed
 
-**1. Adăugarea unui nou animal în magazin**
+**1. Adding a new animal to the shop**
 
-Metoda HTTP pentru request: POST
+HTTP method for request: POST
 
-Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie 
+An animal was inserted in the petstore via the Body-raw section of Postman using the dictionary from API documentation. 
 
-Status cod de răspuns: 200 OK
+Response code status: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/33032aea-1fe3-45a1-9aa4-27790c1f7b5a)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/396a9636-c894-4b71-8c06-6c7ff74212f1)
 
@@ -37,83 +37,83 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**2. Adăugarea unui nou animal în magazin cu un id general -1**
+**2. Adding a new animal to the store with a general id -1**
 
-Metoda HTTP pentru request: POST
+HTTP method for request: POST
 
-Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie 
+An animal was inserted in the petstore via the Body-raw section of Postman using the dictionary from API documentation. 
 
-Status cod de răspuns: 200 OK
+Response code status: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/27150510-30d4-4967-8478-1452d1be9c35)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/2974101d-e693-4d88-9912-412752d74b6d)
 
 -----------------------------------------
-**3. Adaugărea unui animal în magazin cu un id la categorie de tip string "caine"**
+**3. Adding an animal to the shop with a category id of string type "dog"**
 
-Metoda HTTP pentru request: POST
+HTTP method for request: POST
 
-Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie 
+An animal was not inserted in the petstore via the Body-raw section of Postman using the dictionary from API documentation. 
 
-Status cod de răspuns: 500 Sever Error
+Response code status: 500 Server Error
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/56fc176a-8cab-430b-b942-8a6a7c678b26)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/2f686d08-572f-4d6a-82d7-b9615b1c4eae)
 
 
 -----------------------------------------
 
-**4. Adăugarea unui nou animal în magazin cu un număr la status**
+**4. Adding a new animal to the shop with a status number**
 
-Metoda HTTP pentru request: POST
+HTTP method for request: POST
 
-Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
+An animal was inserted in the petstore via the Body-raw section of Postman using the dictionary from API documentation. 
 
-Status cod de răspuns: 200 OK
+Response code status: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/ddb9be47-9baa-40cd-be83-ec53fd7abf5f)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/f738d279-332d-42c0-a34c-3d777a77eeb9)
 
 -----------------------------------------
 
-**5. Adăugarea unui nou animal în magazin cu un text la id pentru tags**
+**5. Adding a new animal to the shop with a text id for tags**
 
-Metoda HTTP pentru request: POST
+HTTP method for request: POST
 
-Animal introdus în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
+An animal was not inserted in the petstore via the Body-raw section of Postman using the dictionary from API documentation. 
 
-Status cod de răspuns: 500 Server Error
+Response code status: 500 Server Error
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b7287e7d-01fb-4086-ba5f-98f8b06b333d)
 
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/76dc1aab-609b-4911-a0c7-ebce43b51d36)
 
 -----------------------------------------
 
-**6. Actualizarea datelor unui animal existent în baza de date**
+**6. Updating the data of an existing animal in the database**
 
-Metoda HTTP pentru request: PUT
+HTTP method for request: PUT
 
-Animal actualizat în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
+Animal updated in petstore via Body-raw section in Postman using dictionary from API documentation
 
-Status cod de răspuns: 200 OK
+Response code status: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/b18df86d-9101-41cf-a77a-d2d599ff5929)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/445ab2d2-7a8f-4a71-86f0-5f056451c18e)
 
@@ -124,114 +124,114 @@ Status cod de răspuns: 200 OK
 
 -----------------------------------------
 
-**7. Actualizarea datelor unui animal existent în baza de date cu un nume de 25 de caractere pentru specie**
+**7. Update the data of an existing animal in the database with a 25-character species name**
 
-Metoda HTTP pentru request: PUT
+HTTP method for request: PUT
 
-Animal actualizat în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
+Animal updated in petstore via Body-raw section in Postman using dictionary from API documentation
 
-Status cod de răspuns: 200 OK
+Response code status: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/ce6dd5db-b761-402a-a67f-2cde05eb1b8e)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/f293a766-ebef-45ee-8554-b7d2205ba06f)
 
 
 -----------------------------------------
 
-**8. Actualizarea datelor unui animal existent cu un id pentru categorie de 19 cifre**
+**8. Update the data of an existing animal with a 19-digit category id**
 
-Metoda HTTP pentru request: PUT
+HTTP method for request: PUT
 
-Animal actualizat în petstore prin secţiunea Body-raw din Postman cu ajutorul dicţionarului din documentaţie
+Animal updated in petstore via Body-raw section in Postman using dictionary from API documentation
 
-Status cod de răspuns: 200 OK
+Response code status: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/88605c95-cc7a-4a60-81c6-7ce6cd605cdd)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/6ec2ad2b-6f1b-4713-97b8-3e06a12b1482)
 
 -----------------------------------------
 
-**9. Găsirea unui animal după id**
+**9. Finding an animal by id**
 
-Metoda HTTP pentru request: GET
+HTTP method for request: GET
 
-Animal găsit prin introducerea id-ului său 2 în endpoint
+Animal found by entering its id 2 in the endpoint
 
-Status cod de răspuns: 200 OK
+Response code status: 200 OK
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/9fefd78d-dde9-43ea-aade-5c911411e7ec)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/645f20a4-028b-451c-a4f7-2a37e8b12114)
 
 -----------------------------------------
 
-**10. Găsirea unui animal după un id negativ**
+**10. Finding an animal by a negative id**
 
-Metoda HTTP pentru request: GET
+HTTP method for request: GET
 
-Animal negăsit prin introducerea id-ului său -2 în endpoint
+Animal not found by entering id -2 in the endpoint
 
-Status cod de răspuns: 404 Not Found
+Response code status: 404 Not Found
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/a53f902b-97be-4e85-a9c0-65528ee2c8de)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/f92355b1-3dfd-4851-ad63-dd7e53cdc1f0)
 
 -----------------------------------------
 
-**11. Ştergerea unui animal după id**
+**11. Deleting an animal by id**
 
-Metoda HTTP pentru request: DELETE
+HTTP method for request: DELETE
 
-Animal şters prin introducerea id-ului său 2 în endpoint
+Animal deleted by entering its id 2 in the endpoint
 
-Status cod de răspuns: 200 OK
+Response code status: 200 OK
 
-Notă: Ca şi improvement ar fi bine să se adauge de către developeri un mesaj de confirmare corespunzător "Pet Deleted"
+Note: As an improvement, it would be good if the developer would add an appropriate "Pet deleted" confirmation message.
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/915ef1b6-8bb5-4110-9c1f-73a119b44f6f)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/e2ec92b3-8e96-42c1-9884-97c0f12462b1)
 
 
 -----------------------------------------
 
-**12. Ştergerea unui animal după id negativ**
+**12. Deleting an animal by negative id**
 
-Metoda HTTP pentru request: DELETE
+HTTP method for request: DELETE
 
-Animal şters prin introducerea id-ului său -2 în endpoint
+The animal was not deleted by entering its id -2 in the endpoint
 
-Status cod de răspuns: 404 Not Found
+Response code status: 404 Not Found
 
-Notă: Ca şi improvement ar fi bine să se adauge de către developeri un mesaj corespunzător de eroare "Pet not found"
+Note: As an improvement, it would be good if the developers would add a corresponding error message "Pet not found"
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/666392aa-67cb-445f-b39a-92722ecbd442)
 
-***Teste JavaScript:***
+***JavaScript Tests:***
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/64b16e25-973f-4afb-8d4c-d7b1434f858e)
 
 
 -----------------------------------------
 
-Rularea colecţiei Pet, cea în care am realizat testele de mai sus
+Running the Pet collection, the one in which I conducted the above tests
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/773cf709-bf3a-4724-a381-8b006745c72b)
 
-Raportul de execuţie 
+Execution report 
 
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/5e192f86-7f72-4b00-8ee2-81e8fc72ba9c)
 
@@ -246,149 +246,148 @@ Raportul de execuţie
 ![image](https://github.com/BirtasAdrian/Testare-Manuala-Proiect-Final-Acreditare/assets/90641668/e22ffe18-3502-43f7-9b8a-ee70529f9a69)
 
 
-**Bug-uri găsite**
+**Bugs found**
 
 **Bug Id:** 1
 
-**Titlu:** Inserarea mai multor animale cu acelaşi id este posibilă
+**Title:** Inserting multiple animals with the same id is possible
 
-**Severitate:** Mare
+**Severity:** High
 
-**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+**Preconditions:** Use API Key: special-key in Authorization
 
-**Paşi de execuţie:**
-1. Se foloseşte metoda HTTP POST
-2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
-3. Se introduce şi completează în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+**Steps:**
+1. Use HTTP POST method
+2. Enter the endpoint: https://petstore.swagger.io/v2/pet
+3. Enter and fill in the Body-raw specific dictionary from the API documentation in the pet section for POST:
 https://petstore.swagger.io
-4. Se apasă butonul "Send" de 2 ori
+4. Press the "Send" button twice
 
-**Rezultat Aşteptat:**
+**Expected Result:**
 
-Nu se va putea insera mai mult de un animal cu acelaşi id, codul 405 invalid input va apărea
+It will not be possible to insert more than one animal with the same id, code 405 invalid input will appear
 
-**Rezultat Actual:**
+**Actual Result:**
 
-Se poate insera mai mult de un animal cu acelaşi id, codul 200 ok apare
+You can insert more than one animal with the same id, code 200 ok appears
 
 -----------------------------------------
 **Bug Id:** 2
 
-**Titlu:** Inserarea unui animal cu un număr la status este posibilă
+**Title:** Inserting an animal with a status number is possible
 
-**Severitate:** Medie
+**Severity:** Medium
 
-**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+**Preconditions:** Use API Key: special-key in Authorization
 
-**Date de test:**: 5
+**Test Data:**: 5
 
-**Paşi de execuţie:**
-1. Se foloseşte metoda HTTP POST
-2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
-3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+**Steps:**
+1. Use HTTP POST method
+2. Enter the endpoint: https://petstore.swagger.io/v2/pet
+3. Enter in Body-raw the specific dictionary from the documentation in the pet section for POST:
 https://petstore.swagger.io
-4. Se completează la "Status" cu 5
-5. Se apasă butonul "Send"
+4. Fill in "Status" with 5
+5. Press the "Send" button
+ 
+**Expected Result:**
 
-**Rezultat Aşteptat:**
+It will not be possible to insert an animal with the status of type number
 
-Nu se va putea insera un animal care sa aibă statusul de tip număr
+**Actual Result:**
 
-**Rezultat Actual:**
-
-Se poate insera un animal care sa aibă statusul de tip număr
+Can insert an animal with status type number
 
 -----------------------------------------
 
 **Bug Id:** 3
 
-**Titlu:** Inserarea unui animal cu un id negativ genereaza un animal cu id-ul 9223372036854775807
+**Title:** Inserting an animal with a negative id generates an animal with id 9223372036854775807
 
-**Severitate:** Medie
+**Severity:** Medium
 
-**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+**Preconditions:** Use API Key: special-key in Authorization
 
-**Date de test:**: -1
+**Test Data:**: -1
 
-**Paşi de execuţie:**
-1. Se foloseşte metoda HTTP POST
-2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
-3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+**Steps:**
+1. Use HTTP POST method
+2. Enter the endpoint: https://petstore.swagger.io/v2/pet
+3. Enter in Body-raw the specific dictionary from the documentation in the pet section for POST:
 https://petstore.swagger.io
-4. Se completează la "id" cu -1
-5. Se apasă butonul "Send"
+4. Fill in "id" with -1
+5. Press the "Send" button
 
-**Rezultat Aşteptat:**
+**Expected Result:**
 
-Nu ar trebui să se genereze deloc un id pentru un număr negativ ci să apară o eroare şi un status cod corespunzător
+An id should not be generated at all for a negative number but an error and a corresponding status code should appear
 
-**Rezultat Actual:**
+**Actual Result:**
 
-Id-ul 9223372036854775807 este generat, iar status cod-ul este de 200 OK
+Id 9223372036854775807 is generated and the status code is 200 OK
 
 -----------------------------------------
 
 **Bug Id:** 4
 
-**Titlu:** Pentru adăugarea unui text la id pentru tags se primeşte un status code 500 Server Error "type" unknown
+**Title:** Adding text to the id for tags results in a status code 500 Server Error "type" unknown
 
-**Severitate:** Medie
+**Severity:** Medium
 
-**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+**Preconditions:** Use API Key: special-key in Authorization
 
-**Date de test:**: Bubu
+**Test Data:**: Bubu
 
-**Paşi de execuţie:**
-1. Se foloseşte metoda HTTP POST
-2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
-3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+**Steps:**
+1. Use HTTP POST method
+2. Enter the endpoint: https://petstore.swagger.io/v2/pet
+3. Enter in Body-raw the specific dictionary from the documentation in the pet section for POST:
 https://petstore.swagger.io
-4. Se completează la "id" tags cu Bubu
-5. Se apasă butonul "Send"
+4. Fill in the "id" tags with Bubu
+5. Press the "Send" button
 
-**Rezultat Aşteptat:**
+**Expected Result:**
 
-Ar trebui să primim un status cod din seria 400 şi un mesaj de eroare
+We should get a 400 series status code and an error message
 
-**Rezultat Actual:**
+**Actual Result:**
 
-Primim un status code din seria 500 ce ţine de eroare de server
+We receive a 500 series status code related to server error
 
 -----------------------------------------
 
 **Bug Id:** 5
 
-**Titlu:** Pentru adăugarea unui text la id pentru categorie se primeşte un status code 500 Server Error "type" unknown
+**Title:** Adding text to the id for the category results in a status code 500 Server Error "type" unknown
 
-**Severitate:** Medie
+**Severity:** Medium
 
-**Precondiţii:** Se foloseşte API Key: special-key în Authorization
+**Preconditions:** Use API Key: special-key in Authorization
 
-**Date de test:**: Caine
+**Test Data:**: Caine
 
-**Paşi de execuţie:**
-1. Se foloseşte metoda HTTP POST
-2. Se introduce endpoint-ul: https://petstore.swagger.io/v2/pet
-3. Se introduce în Body-raw dicţionarul specific din documentaţie din secţiunea pet pentru POST:
+**Steps:**
+1. Use HTTP POST method
+2. Enter the endpoint: https://petstore.swagger.io/v2/pet
+3. Enter in Body-raw the specific dictionary from the documentation in the pet section for POST:
 https://petstore.swagger.io
-4. Se completează la "id" categorie cu Caine
-5. Se apasă butonul "Send"
+4. Fill in "id" category with Caine
+5. Press the "Send" button
 
-**Rezultat Aşteptat:**
+**Expected Result:**
 
-Ar trebui să primim un status cod din seria 400 şi un mesaj de eroare
+We should get a 400 series status code and an error message
 
-**Rezultat Actual:**
+**Actual Result:**
 
-Primim un status code din seria 500 ce ţine de eroare de server
+We receive a 500 series status code related to server error
 
 -----------------------------------------
+**Conclusions**
 
-**Concluzii**
-
-* Au fost trimise 12 request-uri şi executate 46 de teste JavaScript, din care doar 42 au fost executate cu succes
-* 91.3% din teste au trecut si 8,7% au căzut
-* 5 bug-uri au fost găsite şi raportate, unul de severitate mare si 4 de severitate medie
-* Se prezintă un risc crescut deoarece baza de date permite inserări multiple pe acelaş id pentru animale
+* 12 requests were sent and 46 JavaScript tests were executed, of which only 42 were successfully executed
+* 91.3% of tests passed and 8.7% failed
+* 5 bugs were found and reported, one of high severity and 4 of medium severity
+* We have a high risk because the database allows multiple insertions on the same animal id
   
 
